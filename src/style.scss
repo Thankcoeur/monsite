@@ -99,7 +99,11 @@ grid-template-rows: 0.5fr 1fr 1fr ;
 }
 
 .infos {
+.icon {
+display: inline-block  ; 
 
+
+}
   .titre { 
 font-size:1.2em;
 
@@ -107,7 +111,7 @@ font-size:1.2em;
 
   }
   .info {
-     
+     display: inline-block ;  
   font-size:1em ;
   
   }
