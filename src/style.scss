@@ -20,7 +20,7 @@ font-size: 20px;
   display: grid;
   grid-template-columns: 300px 600px;
   grid-template-rows: 900px;
-  grid-column-gap: 50px;
+  grid-column-gap: 0px;
 }
 
 .leftContainer {
@@ -76,6 +76,7 @@ text-align: justify;
 }
 
 .rightContainer {
+padding: 20px ;
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: 0.5fr 1fr 1fr ;
