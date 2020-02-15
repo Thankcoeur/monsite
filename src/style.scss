@@ -49,6 +49,7 @@ font-size: 20px;
   justify-content: center;
 
   > .picture {
+    
     border-radius: 0.5*100px;
     width: 100px;
     height: 100px;
@@ -56,6 +57,22 @@ font-size: 20px;
 
 
   }
+}
+
+.contact {
+
+  padding : 20px ; 
+}
+.about {
+
+ > .texte {
+
+padding :20px ;
+ 
+text-align: justify;
+
+
+ }
 }
 
 .rightContainer {
