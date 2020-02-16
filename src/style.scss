@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
-@import url('https://www.w3schools.com/w3css/4/w3.css') ;  
+@import url("https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap");
+@import url("https://www.w3schools.com/w3css/4/w3.css");
 
 
 .body {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,25 +10,29 @@
 }
 
 .titre {
-
-
-font-size: 20px;
+  font-size: 20px;
 }
 
 .mainContainer {
+  
+ 
   display: grid;
-  grid-template-columns: 300px 600px;
-  grid-template-rows: 900px;
+  grid-template-columns: 0.5fr 1fr;
+
+  grid-template-rows: 1fr;
   grid-column-gap: 0px;
 }
 
 .leftContainer {
   display: grid;
-  grid-template-rows: 0.5fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr );
   grid-template-columns: 1fr;
-  padding : 5px ; 
-
+  padding: 5px;
 }
+
+.d-active {  display:none ; 
+}
+
 
 .contact {
   > .titre {
@@ -49,137 +52,91 @@ font-size: 20px;
   justify-content: center;
 
   > .picture {
-    
-    border-radius: 0.5*100px;
+    border-radius: 0.5 * 100px;
     width: 100px;
     height: 100px;
     overflow: hidden;
-
-
   }
 }
 
 .contact {
-
-  padding : 20px ; 
+  padding: 20px;
 }
 .about {
+  > .texte {
+    padding: 20px;
 
- > .texte {
-
-padding :20px ;
- 
-text-align: justify;
-
-
- }
+    text-align: justify;
+    width: 100%;
+  }
 }
 
 .rightContainer {
-padding: 20px ;
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 0.5fr 1fr 1fr ;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:1fr 2fr 2fr ; 
 
-
-.presentation {
-
-
+  .presentation {
     display: flex;
     justify-content: left;
-    align-items : center ;  
-
-
-
-
-
+    align-items: center;
+  }
 }
 
-
-
-
-
-
+.i-b {
+  display: inline-block;
 }
 
-.i-b { display: inline-block ;  }
-
-
-
-
-
-
-
-
-.web-site { 
+.web-site {
   background-image: url("web.svg");
-  
-  height:   14px ;
-  width : 14px ; 
-  background-repeat: no-repeat ;
-  background-size: contain;
- 
-}
 
+  height: 14px;
+  width: 14px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 .item {
-.infos {
-.date {
-display: inline-block ;  
-
-
-}
-.centre { 
-display:inline-block ; 
-}
-.ville {
-
-  display: inline-block ; 
-}
-
-
-
+  .infos {
+    .date {
+      display: inline-block;
+    }
+    .centre {
+      display: inline-block;
+    }
+    .ville {
+      display: inline-block;
+    }
+  }
 }
 
-
-
-
-
+.yellow-border {
+  border-bottom: rgb(199, 134, 179) solid 0.5px;
 }
 
-.yellow-border { border-bottom: rgb(199, 134, 179) solid 0.5px ;
-
-
-}
-
-.font-style1  { 
-  font-family: 'Zhi Mang Xing', cursive;
-
+.font-style1 {
+  font-family: "Zhi Mang Xing", cursive;
 }
 
 .fs15 {
-
-  font-size : 1.5em ;  
+  font-size: 1.5em;
 }
 .fs2 {
-
-  font-size : 2em ;  
+  font-size: 2em;
 }
 
 .fs12 {
-
   font-size: 1.2em;
 }
 
 .tac {
-text-align: center ;
-  
+  text-align: center;
 }
 
-.fb700 {font-weight :  700 ;  }
+.fb700 {
+  font-weight: 700;
+}
 
 
-
-
-
-
+@import 'media';

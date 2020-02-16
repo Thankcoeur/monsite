@@ -1,0 +1,52 @@
+@media screen and (max-width: 800px) {
+  
+
+   .presentation {
+    margin : auto ; 
+    text-align : center ; 
+    margin-top :10px ;  
+   }
+  
+    .mainContainer {
+      
+      display: grid;
+        
+        grid-template-columns: 1fr ;
+       grid-template-rows:auto    ; 
+         
+       
+
+      
+      background-color: hsl(340, 82%, 52%);
+    }
+
+    .leftContainer {
+     
+      grid-template-columns: 1fr;
+  grid-template-rows: auto  ;
+     
+
+    }
+
+    .active {
+
+      display : none !important ;  
+    }
+    .d-active {  display : block !important }
+    }
+
+  
+
+  .rightContainer {
+    
+    grid-template-rows: auto ;
+    color : white ; 
+  }
+  
+    
+
+    
+  
+    
+    
+  
