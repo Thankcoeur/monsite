@@ -33,15 +33,22 @@
       display : none !important ;  
     }
     .d-active {  display : block !important }
+
+
+
+
+.rightContainer {
+    
+    grid-template-rows: auto ;
+    color : white ; 
+    
+  }
+
     }
 
   
 
-  .rightContainer {
-    
-    grid-template-rows: auto ;
-    color : white ; 
-  }
+  
   
     
 
