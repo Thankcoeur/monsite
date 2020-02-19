@@ -58,6 +58,12 @@
     width: 100px;
     height: 100px;
     overflow: hidden;
+    background-image: url("maxime.jpg");
+    background-repeat: no-repeat ;
+    background-position: center  ; 
+    background-size: cover ; 
+    transform: rotate(-90deg) ;  
+      
   }
 }
 
