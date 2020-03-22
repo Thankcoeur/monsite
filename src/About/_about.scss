@@ -1,0 +1,23 @@
+.about {
+  > .texte {
+    padding: 20px;
+
+    text-align: justify;
+
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
+
+
+
+@media all and (max-width: 600px ) {
+
+
+  .about {
+
+    display: none;
+  }
+}

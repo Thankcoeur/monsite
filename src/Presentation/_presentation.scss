@@ -1,0 +1,26 @@
+
+.presentation {
+
+  padding: 20px;
+  font-size:10px ;
+
+h1  {
+
+
+border-bottom: 0.5px  solid violet;
+
+width: 50px;
+  white-space: nowrap;
+
+
+}
+}
+
+@media all and (max-width: 600px){
+  .presentation {
+
+
+    display: none;
+  }
+
+}

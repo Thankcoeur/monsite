@@ -1,0 +1,30 @@
+.sports {
+  .container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+
+  }
+
+  h1 {
+    text-align: center;
+
+
+  }
+
+
+
+
+}
+
+@media all and (max-width: 600px ) {
+
+
+  .sports {
+
+    display: none ;
+  }
+}

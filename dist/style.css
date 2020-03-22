@@ -1,16 +1,146 @@
-@import url("https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap");
-@import url("https://www.w3schools.com/w3css/4/w3.css");
+.about > .texte {
+  padding: 20px;
+  text-align: justify;
+}
+.about h1 {
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .about {
+    display: none;
+  }
+}
+.contacts {
+  padding: 20px;
+}
+.contacts h1 {
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .contacts {
+    background: linear-gradient(90deg, #86528a 18%, #d45edc 100%);
+    color: white;
+  }
+}
+.contacts-item {
+  padding-top: 5px;
+}
+.contacts-item i, .contacts-item .info {
+  display: inline-block;
+}
+
+.experience {
+  padding: 20px;
+}
+.experience h1 {
+  border-bottom: 0.5px solid violet;
+}
+
+@media all and (max-width: 600px) {
+  .experience {
+    background: linear-gradient(90deg, #86528a 18%, #d45edc 100%);
+    color: white;
+  }
+}
+.c-item {
+  display: flex;
+  flex-direction: row;
+}
+.c-item .infos {
+  display: flex;
+  padding-right: 20px;
+}
+
+.pictureContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.pictureContainer > .picture {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-image: url("maxime.png ");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.presentation {
+  padding: 20px;
+  font-size: 10px;
+}
+.presentation h1 {
+  border-bottom: 0.5px solid violet;
+  width: 50px;
+  white-space: nowrap;
+}
+
+@media all and (max-width: 600px) {
+  .presentation {
+    display: none;
+  }
+}
+.formation {
+  padding: 20px;
+}
+.formation h1 {
+  border-bottom: 0.5px solid violet;
+}
+.sports .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.sports h1 {
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .sports {
+    display: none;
+  }
+}
+.recommandation {
+  padding: 20px;
+}
+.recommandation h1 {
+  border-bottom: 0.5px solid violet;
+}
+.recommandation .recommandation-items {
+  display: flex;
+  justify-content: space-around;
+}
+.recommandation .recommandation-items .item {
+  padding: 5px;
+}
+
+@media all and (max-width: 600px) {
+  .recommandation .recommandation-items {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .body {
   display: flex;
   align-items: center;
   font-size: 12px;
 }
 
-.titre {
-  font-size: 20px;
+html {
+  zoom: 3;
 }
 
 .mainContainer {
+  background-color: white;
+  width: 900px;
+  margin: auto;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
   grid-template-rows: auto;
@@ -18,72 +148,63 @@
 }
 
 .leftContainer {
-  background-color: #e92063;
+  background: linear-gradient(90deg, #86528a 18%, #d45edc 100%);
   color: white;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: 1fr;
-  padding: 5px;
 }
 
-.d-active {
-  display: none;
-}
-
-.contact > .titre {
-  text-align: center;
-}
-.contact > .infos {
-  padding-top: 10px;
-}
-.contact > .infos > .info {
-  padding-top: 5px;
-}
-
-.pictureContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.pictureContainer > .picture {
-  border-radius: 50px;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  background-image: url("maxime.jpg");
+.point {
+  position: absolute;
+  left: -19px;
+  width: 20px;
+  height: 20px;
+  background-image: url("dessin.svg");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  transform: rotate(-90deg);
+  background-position: center center;
 }
 
-.contact {
-  padding: 20px;
-}
-
-.about > .texte {
-  padding: 20px;
-  text-align: justify;
-  width: 100%;
+.hidden {
+  display: none;
 }
 
 .rightContainer {
   color: black;
-  padding: 20px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
 }
-.rightContainer .presentation {
-  display: flex;
-  justify-content: left;
-  align-items: center;
+
+.presentation-hidden {
+  display: none;
 }
 
-.i-b {
-  display: inline-block;
-}
+@media all and (max-width: 600px) {
+  .presentation-hidden {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .rightContainer, .mainContainer, .leftContainer {
+    color: black;
+    display: block;
+    background-color: white;
+    background-image: none;
+  }
+
+  .leftContainer, .rightContainer {
+    padding: 0px;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+}
 .web-site {
   background-image: url("web.svg");
   height: 14px;
@@ -92,75 +213,8 @@
   background-size: contain;
 }
 
-.item .infos .date {
-  display: inline-block;
-}
-.item .infos .centre {
-  display: inline-block;
-}
-.item .infos .ville {
-  display: inline-block;
-}
-
-.yellow-border {
-  border-bottom: #c786b3 solid 0.5px;
-}
-
-.font-style1 {
-  font-family: "Zhi Mang Xing", cursive;
-}
-
-.fs15 {
-  font-size: 1.5em;
-}
-
-.fs2 {
-  font-size: 2em;
-}
-
-.fs12 {
-  font-size: 1.2em;
-}
-
-.tac {
-  text-align: center;
-}
-
-.fb700 {
-  font-weight: 700;
-}
-
-@media screen and (max-width: 800px) {
-  .presentation {
-    margin: auto;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  .mainContainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    background-color: #e92063;
-  }
-
-  .leftContainer {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-
-  .active {
-    display: none !important;
-  }
-
-  .d-active {
-    display: block !important;
-  }
-
-  .rightContainer {
-    grid-template-rows: auto;
-    color: white;
-  }
+* {
+  cursor: default;
 }
 
 /*# sourceMappingURL=style.css.map */
