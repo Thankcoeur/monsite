@@ -1,132 +1,3 @@
-.about > .texte {
-  padding: 20px;
-  text-align: justify;
-}
-.about h1 {
-  text-align: center;
-}
-
-@media all and (max-width: 600px) {
-  .about {
-    display: none;
-  }
-}
-.contacts {
-  padding: 20px;
-}
-.contacts h1 {
-  text-align: center;
-}
-
-@media all and (max-width: 600px) {
-  .contacts {
-    background: linear-gradient(90deg, #86528a 18%, #d45edc 100%);
-    color: white;
-  }
-}
-.contacts-item {
-  padding-top: 5px;
-}
-.contacts-item i, .contacts-item .info {
-  display: inline-block;
-}
-
-.experience {
-  padding: 20px;
-}
-.experience h1 {
-  border-bottom: 0.5px solid violet;
-}
-
-@media all and (max-width: 600px) {
-  .experience {
-    background: linear-gradient(90deg, #86528a 18%, #d45edc 100%);
-    color: white;
-  }
-}
-.c-item {
-  display: flex;
-  flex-direction: row;
-}
-.c-item .infos {
-  display: flex;
-  padding-right: 20px;
-}
-
-.pictureContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-.pictureContainer > .picture {
-  border-radius: 50px;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  background-image: url("maxime.png ");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.presentation {
-  padding: 20px;
-  font-size: 10px;
-}
-.presentation h1 {
-  border-bottom: 0.5px solid violet;
-  width: 50px;
-  white-space: nowrap;
-}
-
-@media all and (max-width: 600px) {
-  .presentation {
-    display: none;
-  }
-}
-.formation {
-  padding: 20px;
-}
-.formation h1 {
-  border-bottom: 0.5px solid violet;
-}
-.sports .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-.sports h1 {
-  text-align: center;
-}
-
-@media all and (max-width: 600px) {
-  .sports {
-    display: none;
-  }
-}
-.recommandation {
-  padding: 20px;
-}
-.recommandation h1 {
-  border-bottom: 0.5px solid violet;
-}
-.recommandation .recommandation-items {
-  display: flex;
-  justify-content: space-around;
-}
-.recommandation .recommandation-items .item {
-  padding: 5px;
-}
-
-@media all and (max-width: 600px) {
-  .recommandation .recommandation-items {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-}
 .body {
   display: flex;
   align-items: center;
@@ -201,6 +72,7 @@ html {
   }
 
   body {
+    font-size: 12px;
     padding: 0;
     margin: 0;
   }
@@ -215,6 +87,164 @@ html {
 
 * {
   cursor: default;
+}
+
+.about > .texte {
+  padding: 20px;
+  text-align: justify;
+}
+.about h1 {
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .about {
+    display: none;
+  }
+}
+.contacts {
+  padding: 20px;
+}
+.contacts h1 {
+  padding: 5px;
+}
+.contacts h1 {
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .contacts {
+    background: linear-gradient(90deg, #86528a 18%, #d45edc 100%);
+    color: white;
+  }
+}
+.contacts-item {
+  padding-top: 5px;
+}
+.contacts-item i, .contacts-item .info {
+  display: inline-block;
+}
+
+.experience {
+  padding: 20px;
+}
+.experience > h1 {
+  border-bottom: 0.5px solid violet;
+}
+
+@media all and (max-width: 600px) {
+  .experience {
+    background: linear-gradient(90deg, #86528a 18%, #d45edc 100%);
+    color: white;
+  }
+}
+.c-item {
+  display: flex;
+  flex-direction: row;
+}
+.c-item .infos {
+  display: flex;
+  padding-right: 20px;
+}
+.c-item .infos .date {
+  padding-top: 4px;
+}
+.c-item h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 0;
+  line-height: 1em;
+}
+.c-item h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.25em;
+}
+
+.pictureContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.pictureContainer > .picture {
+  border: 5px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+}
+.pictureContainer > .picture::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-image: url("maxime.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+@media all and (max-width: 600px) {
+  .pictureContainer > .picture {
+    border: 5px solid rgba(0, 0, 0, 0.05);
+  }
+}
+.presentation {
+  padding: 20px;
+}
+.presentation h1 {
+  border-bottom: 0.5px solid violet;
+  width: 50px;
+  white-space: nowrap;
+}
+
+@media all and (max-width: 600px) {
+  .presentation {
+    display: none;
+  }
+}
+.formation {
+  padding: 20px;
+}
+.formation > h1 {
+  border-bottom: 0.5px solid violet;
+}
+.sports .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.sports h1 {
+  text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .sports {
+    display: none;
+  }
+}
+.recommandation {
+  padding: 20px;
+}
+.recommandation h1 {
+  border-bottom: 0.5px solid violet;
+}
+.recommandation .recommandation-items {
+  display: flex;
+  justify-content: space-around;
+}
+.recommandation .recommandation-items .item {
+  padding: 5px;
+}
+
+@media all and (max-width: 600px) {
+  .recommandation .recommandation-items {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

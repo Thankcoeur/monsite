@@ -5,15 +5,47 @@
   padding: 20px;
 
   > .picture {
-    border-radius: 0.5 * 100px;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    background-image: url("maxime.png ");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    border: 5px solid rgba(255,255,255,0.60);
+    border-radius: 50%;
+&::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-image: url("maxime.png ");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 
+
+  overflow: hidden;
+  border-radius: 50%;
+
+
+
+
+
+
+}
 
   }
+}
+
+@media all and (max-width: 600px ) {
+
+  .pictureContainer {
+
+
+
+    > .picture {
+
+      border: 5px solid rgba(0,0,0,0.05);
+
+
+    }
+  }
+
+
+
 }

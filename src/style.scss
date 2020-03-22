@@ -1,5 +1,4 @@
-@import "About/about", "Contacts/contact", "Contact/Contact", "Experience/experiencepro", "Item/item", "Picture/picture", "Presentation/presentation",
-"Formation/formation", "Sport/sports", "Recommandations/recommandation";
+
 
 .body {
   display: flex;
@@ -117,6 +116,7 @@ html {
   }
 
   body {
+    font-size: 12px;
 
     padding: 0;
     margin: 0;
@@ -139,3 +139,5 @@ html {
   cursor: default;
 }
 
+@import "About/about", "Contacts/contact", "Contact/Contact", "Experience/experiencepro", "Item/item", "Picture/picture", "Presentation/presentation",
+"Formation/formation", "Sport/sports", "Recommandations/recommandation";

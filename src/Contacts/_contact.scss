@@ -1,5 +1,10 @@
 .contacts  {
   padding: 20px;
+  h1 {
+
+
+  padding: 5px;
+  }
 h1 {
 
   text-align: center ;
@@ -11,6 +16,7 @@ h1 {
 @media all and (max-width: 600px ) {
 
   .contacts {
+
 
     background: linear-gradient(90deg, rgba(134,82,138,1) 18%, rgba(212,94,220,1) 100%);
 
