@@ -3,14 +3,36 @@
 
   padding: 20px;
 
+h1 span {
 
-h1  {
 
 
-border-bottom: 0.5px  solid violet;
+  background: -webkit-linear-gradient(0deg, #eee, #b44cdc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2  {
 
-width: 50px;
-  white-space: nowrap;
+&:after {
+
+  position: absolute;
+  display: block;
+content: "";
+  width: 50px;
+
+
+
+  border: 1px solid;
+  border-image-source: linear-gradient(45deg, #EEEEEE, #b44cdc);
+  border-image-slice: 1;
+
+}
+
+
+
+
+
+
 
 
 }
