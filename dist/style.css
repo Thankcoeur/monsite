@@ -104,12 +104,12 @@
   padding: 20px;
   white-space: nowrap;
 }
-.presentation h1 span {
+.presentation h2 span {
   background: -webkit-linear-gradient(0deg, #eee, #b44cdc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.presentation h2:after {
+.presentation h3:after {
   position: absolute;
   display: block;
   content: "";
