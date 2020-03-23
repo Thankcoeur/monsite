@@ -1,37 +1,38 @@
-.recommandation  {
+.recommandation {
   padding: 20px;
-h1 {
 
-  border-bottom: 0.5px solid violet;
+  h1 {
+
+    border-bottom: 0.5px solid violet;
 
 
-}
+  }
+
   .recommandation-items {
 
     display: flex;
     justify-content: space-around;
-.item  {
 
-  padding: 5px;
-}
+    .item {
+
+      padding: 5px;
+    }
   }
 
 
 }
 
-@media all and(max-width: 600px)  {
+@media all and(max-width: 600px) {
   .recommandation {
 
-.recommandation-items {
-  justify-content: center;
-  align-items: center;
+    .recommandation-items {
+      justify-content: center;
+      align-items: center;
 
-  flex-direction: column;
-
-
-}
+      flex-direction: column;
 
 
+    }
 
 
   }

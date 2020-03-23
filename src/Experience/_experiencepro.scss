@@ -1,14 +1,11 @@
 .experience {
   padding: 20px;
-  >h1 {
-     border-bottom: 0.5px solid violet;
+
+  > h1 {
+    border-bottom: 0.5px solid violet;
 
 
-
-   }
-
-
-
+  }
 
 
 }
@@ -16,9 +13,8 @@
 @media all and (max-width: 600px) {
 
   .experience {
-    background: linear-gradient(90deg, rgba(134,82,138,1) 18%, rgba(212,94,220,1) 100%);
+    background: linear-gradient(90deg, rgba(134, 82, 138, 1) 18%, rgba(212, 94, 220, 1) 100%);
     color: white;
-
 
 
   }

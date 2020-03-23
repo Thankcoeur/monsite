@@ -1,32 +1,31 @@
-.contacts  {
- .content {
+.contacts {
+  .content {
 
-   padding: 20px;
- }
-  h1 {
-padding: 10px;
-    background: linear-gradient(90deg, rgba(134,82,138,1) 0%, rgb(220, 19, 154) 50% ,  rgba(212,94,220,1) 100% );
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(134, 82, 138, 1) 0%, rgb(220, 19, 154) 50%, rgba(212, 94, 220, 1) 100%);
 
   }
-h1 {
 
-  text-align: center ;
-}
+
 
 
 }
 
-@media all and (max-width: 600px ) {
+@media all and (max-width: 600px) {
 
   .contacts {
 
 
-    background: linear-gradient(90deg, rgba(134,82,138,1) 18%, rgba(212,94,220,1) 100%);
+    background: linear-gradient(90deg, rgba(134, 82, 138, 1) 18%, rgba(212, 94, 220, 1) 100%);
 
-  color: white;
+    color: white;
 
   }
-
 
 
 }

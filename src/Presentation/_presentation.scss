@@ -2,46 +2,40 @@
 .presentation {
 
   padding: 20px;
+  white-space: nowrap;
 
-h1 span {
-
-
-
-  background: -webkit-linear-gradient(0deg, #eee, #b44cdc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-h2  {
-
-&:after {
-
-  position: absolute;
-  display: block;
-content: "";
-  width: 50px;
+  h1 span {
 
 
+    background: -webkit-linear-gradient(0deg, #eee, #b44cdc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-  border: 1px solid;
-  border-image-source: linear-gradient(45deg, #EEEEEE, #b44cdc);
-  border-image-slice: 1;
+  h2 {
 
-}
+    &:after {
 
-
-
-
-
+      position: absolute;
+      display: block;
+      content: "";
+      width: 50px;
 
 
+      border: 1px solid;
+      border-image-source: linear-gradient(45deg, #EEEEEE, #b44cdc);
+      border-image-slice: 1;
 
-}
+    }
+
+
+  }
 }
 
-@media all and (max-width: 600px){
-.presentation {
+@media all and (max-width: 600px) {
+  .presentation {
 
-  display: none;
-}
+    display: none;
+  }
 
 }

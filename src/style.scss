@@ -1,17 +1,12 @@
-
 @import "About/about", "Contacts/contact", "Contact/Contact", "Experience/experiencepro", "Item/item", "Picture/picture", "Presentation/presentation",
 "Formation/formation", "Sport/sports", "Recommandations/recommandation";
+
 .body {
   display: flex;
   //justify-content: center;
   align-items: center;
   font-size: 12px;
 
-}
-
-html {
-
-  zoom: 3;
 }
 
 
@@ -36,12 +31,6 @@ html {
 }
 
 
-
-
-
-
-
-
 .point {
 
   position: absolute;
@@ -50,28 +39,13 @@ html {
   height: 20px;
 
 
-
   background-image: url("dessin.svg");
   background-size: contain;
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
   background-position: center center;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .hidden {
@@ -89,23 +63,19 @@ html {
 
 
 }
+
 .presentation-hidden {
 
   display: none;
 }
+
 @media all and (max-width: 600px) {
   .presentation-hidden {
-  display: flex;
+    display: flex;
     margin: auto;
 
     align-items: center;
     justify-content: center;
-    .content {
-      width: 195px;
-
-
-    }
-
 
 
   }
@@ -117,7 +87,7 @@ html {
     background-image: none;
   }
 
-  .leftContainer,.rightContainer {
+  .leftContainer, .rightContainer {
 
     padding: 0px;
   }

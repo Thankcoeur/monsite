@@ -2,7 +2,7 @@
   padding: 20px;
   text-align: justify;
 }
-.about h1 {
+.about h2 {
   text-align: center;
   padding: 10px;
   background: linear-gradient(90deg, #86528a 0%, rgba(220, 19, 154, 0.5) 50%, #d45edc 100%);
@@ -16,12 +16,10 @@
 .contacts .content {
   padding: 20px;
 }
-.contacts h1 {
+.contacts h2 {
+  text-align: center;
   padding: 10px;
   background: linear-gradient(90deg, #86528a 0%, #dc139a 50%, #d45edc 100%);
-}
-.contacts h1 {
-  text-align: center;
 }
 
 @media all and (max-width: 600px) {
@@ -61,13 +59,13 @@
 .c-item .infos .date {
   padding-top: 4px;
 }
-.c-item h1 {
+.c-item h2 {
   font-size: 1.5em;
   font-weight: normal;
   margin: 0;
   line-height: 1em;
 }
-.c-item h2 {
+.c-item h3 {
   margin: 0;
   font-weight: normal;
   font-size: 1.25em;
@@ -104,6 +102,7 @@
 }
 .presentation {
   padding: 20px;
+  white-space: nowrap;
 }
 .presentation h1 span {
   background: -webkit-linear-gradient(0deg, #eee, #b44cdc);
@@ -137,7 +136,7 @@
   align-items: center;
   padding: 20px;
 }
-.sports > h1 {
+.sports > h2 {
   padding: 10px;
   text-align: center;
   font-size: 2em;
@@ -174,10 +173,6 @@
   display: flex;
   align-items: center;
   font-size: 12px;
-}
-
-html {
-  zoom: 3;
 }
 
 .mainContainer {
@@ -230,9 +225,6 @@ html {
     margin: auto;
     align-items: center;
     justify-content: center;
-  }
-  .presentation-hidden .content {
-    width: 195px;
   }
 
   .rightContainer, .mainContainer, .leftContainer {

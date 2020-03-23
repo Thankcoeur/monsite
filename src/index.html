@@ -2,73 +2,55 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Document</title>
 
-    <link rel="stylesheet" href="style.css">
-  
-
-   
-            
-
+    <link href="style.css" rel="stylesheet">
 
 
 </head>
 <body>
-    <div class="body">
+<div class="body">
 
-        <div class="mainContainer">
+    <div class="mainContainer">
 
-            <div class="leftContainer  ">
+        <div class="leftContainer  ">
 
             ${require('./Picture/_picture.html')}
 
 
+            <section class="presentation-hidden presentation ">
 
-                <section class="presentation-hidden presentation ">
+                <div class="content">
 
-                    <div class="content">
+                    <h2><span>Maxime</span> Fedou&#8209;Forgeard</h2>
+                    <h3>Devellopeur front&#8209;end</h3>
 
-                        <h1> <span>Maxime</span>  Fedou-Forgeard</h1>
-                        <h2>Devellopeur front-end</h2>
+                </div>
 
-                    </div>
-
-                </section>
+            </section>
             ${require('./Contacts/_Contacts.html')}
             ${require('./About/_about.html')}
-                ${require('./Sport/_sports.html')}
-            
-            </div>
-
-            <div class="rightContainer ">
-                ${require('./Presentation/_presentation.html')}
-                ${require('./Formation/_formation.html') }
-                ${require('./Experience/_Experiencepro.html') }
-                ${require('./Recommandations/_recommandation.html') }
-
-            </div>
+            ${require('./Sport/_sports.html')}
 
         </div>
 
+        <div class="rightContainer ">
+            ${require('./Presentation/_presentation.html')}
+            ${require('./Formation/_formation.html') }
+            ${require('./Experience/_Experiencepro.html') }
+            ${require('./Recommandations/_recommandation.html') }
 
-    
-
-
-
-
-
-
-
-
-
+        </div>
 
     </div>
 
 
+</div>
 
-    <script src="https://kit.fontawesome.com/a5a5d0b752.js" crossorigin="anonymous"></script>
+
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/a5a5d0b752.js"></script>
 
 
 </body>
