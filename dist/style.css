@@ -30,6 +30,7 @@
 }
 .contacts-item {
   padding-top: 10px;
+  font-size: 1.3em;
 }
 .contacts-item i, .contacts-item .info {
   display: inline-block;
@@ -40,6 +41,7 @@
 }
 .experience > h1 {
   border-bottom: 0.5px solid violet;
+  font-size: 2em;
 }
 
 @media all and (max-width: 600px) {
@@ -51,6 +53,7 @@
 .c-item {
   display: flex;
   flex-direction: row;
+  font-size: 1.3em;
 }
 .c-item p {
   line-height: 2em;
@@ -140,6 +143,7 @@
   padding: 20px;
 }
 .formation > h1 {
+  font-size: 2em;
   border-bottom: 0.5px solid violet;
 }
 .sports .container {
@@ -162,9 +166,11 @@
 }
 .recommandation {
   padding: 20px;
+  font-size: 1.3em;
 }
 .recommandation h1 {
   border-bottom: 0.5px solid violet;
+  font-size: 2em;
 }
 .recommandation .recommandation-items {
   display: flex;
