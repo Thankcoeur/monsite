@@ -2,7 +2,11 @@
 
   display: flex;
   flex-direction: row;
+p {
 
+  line-height: 2em;
+  margin-top: 2px;
+}
   .infos {
     display: flex;
 
@@ -20,15 +24,17 @@
 
   h2 {
     font-size: 1.5em;
+
     font-weight: normal;
     margin: 0;
-    line-height: 1em;
+    line-height: 1em ;
   }
 
   h3 {
     margin: 0;
     font-weight: normal;
     font-size: 1.25em;
+    line-height: 2em;
   }
 
 

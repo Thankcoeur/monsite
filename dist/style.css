@@ -29,7 +29,7 @@
   }
 }
 .contacts-item {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 .contacts-item i, .contacts-item .info {
   display: inline-block;
@@ -52,6 +52,10 @@
   display: flex;
   flex-direction: row;
 }
+.c-item p {
+  line-height: 2em;
+  margin-top: 2px;
+}
 .c-item .infos {
   display: flex;
   padding-right: 20px;
@@ -69,6 +73,7 @@
   margin: 0;
   font-weight: normal;
   font-size: 1.25em;
+  line-height: 2em;
 }
 
 .pictureContainer {
@@ -104,7 +109,14 @@
   padding: 20px;
   white-space: nowrap;
 }
-.presentation h2 span {
+.presentation .maj {
+  text-transform: uppercase;
+}
+.presentation h2 .maj {
+  background-color: initial;
+  color: black;
+}
+.presentation h2 .name-color {
   background: -webkit-linear-gradient(0deg, #eee, #b44cdc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
