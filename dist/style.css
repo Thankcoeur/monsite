@@ -1,6 +1,7 @@
 .about > .texte {
   padding: 20px;
   text-align: justify;
+  font-size: 1.3rem;
 }
 .about h2 {
   text-align: center;
@@ -30,7 +31,7 @@
 }
 .contacts-item {
   padding-top: 10px;
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 .contacts-item i, .contacts-item .info {
   display: inline-block;
@@ -171,6 +172,7 @@
   font-size: 1.5rem;
 }
 .recommandation .recommandation-items {
+  font-size: 1.3rem;
   display: flex;
   justify-content: space-around;
 }
