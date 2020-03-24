@@ -6,6 +6,7 @@
   //justify-content: center;
   align-items: center;
   font-size: 12px;
+  letter-spacing: 0px;
 
 }
 
@@ -112,7 +113,11 @@
   background-size: contain;
 }
 
+#fix {
 
+
+  padding-right: 5px;
+}
 
 * {
 
@@ -120,16 +125,10 @@
 }
 
 @media all and (max-width: 370px){
-  .formation .experience {
 
-    i {
-
-      width: 24px;
-      height: 24px;
-    }
+#fix {
 
 
-
-  }
-
+  display: none !important;
+}
 }

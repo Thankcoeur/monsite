@@ -166,14 +166,10 @@
 }
 .recommandation {
   padding: 20px;
-  font-size: 1.3em;
 }
 .recommandation h1 {
   border-bottom: 0.5px solid violet;
   font-size: 1.5rem;
-}
-.recommandation h1 #fix-widht {
-  width: 24px;
 }
 .recommandation .recommandation-items {
   display: flex;
@@ -196,6 +192,7 @@
   display: flex;
   align-items: center;
   font-size: 12px;
+  letter-spacing: 0px;
 }
 
 .mainContainer {
@@ -275,14 +272,17 @@
   background-size: contain;
 }
 
+#fix {
+  padding-right: 5px;
+}
+
 * {
   cursor: default;
 }
 
 @media all and (max-width: 370px) {
-  .formation .experience i {
-    width: 24px;
-    height: 24px;
+  #fix {
+    display: none !important;
   }
 }
 
