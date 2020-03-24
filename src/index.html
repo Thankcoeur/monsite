@@ -14,28 +14,25 @@
 <div class="body">
 
 
-    <div class="mail">
+    <div class="mail ">
 
 
         <style>
             .mail:hover {
-        opacity: 1;
+                background-color: rgba(220, 58, 125, 1);
         }
         .mail {
-        transition-delay: 0ms ;
 
-        transition-duration: 500ms;
-        transition-property: opacity;
 
-        width: 50px;
-        height: 50px;
+
+
         color: red;
-        opacity: 0.2;
+
         position: fixed;
-        top: 10px ;
-        right: 10px ;
-        font-size: 40px;
-        background-color: black;
+        top: 150px ;
+        left: 10px ;
+        font-size: 25px;
+        background-color: rgba(220, 58, 125, 0.3);
         padding: 10px;
         border-radius: 10px;
         display: flex;
@@ -51,30 +48,30 @@
         <a href="mailto:maxime.fedou@email.com?subject=reponse cv&body=nom : {nom]%0D%0Anum de tel :{tel} %0D%0Amerci de me contacter " ><i class="fas fa-envelope-open"></i></a>
 
     </div>
-    <div class="tel">
+    <div class="tel ">
 
         <style>
 
 
             .tel:hover {
 
-                opacity: 1;
+                background-color: rgba(220, 58, 125, 1);
             }
         .tel {
-            transition-delay: 0ms ;
+            @include border-grey ;
+            background-color: rgba(220, 58, 125, 0.3);
 
-            transition-duration: 500ms;
             transition-property: opacity;
+            font-size: 5px;
 
-            width: 50px;
-            height: 50px;
+
             color: red;
-            opacity: 0.2;
+
             position: fixed;
             top: 10px ;
             left: 10px ;
-            font-size: 40px;
-            background-color: black;
+            font-size: 25px;
+
             padding: 10px;
             border-radius: 10px;
             display: flex;
@@ -99,30 +96,28 @@
     </div>
 
 
-    <div class="telsms">
+    <div class="telsms ">
 
         <style>
 
 
             .telsms:hover {
 
-                opacity: 1;
-            }
+                background-color: rgba(220, 58, 125, 1);}
             .telsms {
-                transition-delay: 0ms ;
 
-                transition-duration: 500ms;
-                transition-property: opacity;
 
-                width: 50px;
-                height: 50px;
+
+
+
+
                 color: red;
-                opacity: 0.2;
+
                 position: fixed;
-                top: 100px ;
+                top: 80px ;
                 left: 10px ;
-                font-size: 40px;
-                background-color: black;
+                font-size: 25px;
+                background-color: rgba(220, 58, 125, 0.3);
                 padding: 10px;
                 border-radius: 10px;
                 display: flex;
@@ -152,22 +147,23 @@
 
             .bar:hover {
 
-                opacity: 1;
+                background-color: rgba(0,0,0,1);
+                color: rgba(255,255,255,1);
             }
             .bar {
-                transition-delay: 0ms ;
 
-                transition-duration: 500ms;
-                transition-property: opacity;
+
+
+               transition: background-color,color;
                 font-size: 20px;
-                opacity: 0.2;
+                background-color: rgba(0,0,0,0.3);
                 position: fixed;
-                bottom: 5px ;
-                right: 5px;
-                left: 5px;
-                background-color: black;
-                color: white;
-                border-radius: 10px;
+                bottom: 0px ;
+                right: 0px;
+                left: 0px;
+
+                color: rgba(220, 81, 46, 0.75);
+
                 visibility: hidden;
 
             }
@@ -178,9 +174,10 @@
                 align-items: center;
             }
             .bar a  {
+                color: inherit;
 
                 overflow: hidden;
-                color: white;
+
                 display: inline-block;
                 padding: 20px;
             }
