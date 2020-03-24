@@ -13,7 +13,66 @@
 <body>
 <div class="body">
 
-    <div class="mainContainer">
+    <div id="home" class="mainContainer">
+
+        <div class="bar">
+
+            <style>
+
+
+                .bar {
+
+                    position: fixed;
+                    top:20px ;
+                    right: 5px;
+                    background-color: black;
+                    color: white;
+                    border-radius: 10px;
+                    visibility: hidden;
+
+                }
+                .bar .content {
+                    padding: 10px 0px;
+                    display: block;
+                }
+                .bar a  {
+                    overflow: hidden;
+                    color: white;
+                    display: block;
+                    padding: 10px;
+                }
+                .bar a:hover {
+
+                    background-color: #dc512e;
+                }
+
+                @media all and (max-width: 600px ){
+                    .bar {
+
+                        visibility: visible;
+                    }
+                }
+            </style>
+            <div class="content">
+
+                <a href="#home"><i class="fas fa-home"></i></a>
+                <a href="#contact"><i class="fas fa-id-card"></i></a>
+                <a href="#formation"><i  class="fas fa-graduation-cap"></i></a>
+                <a href="#experience"><i  class="fas fa-briefcase"></i></a>
+
+
+                <a href="#recommandation"> <i class="fas fa-edit"></i></a>
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
 
         <div class="leftContainer  ">
 

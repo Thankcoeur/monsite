@@ -1,6 +1,9 @@
 @import "About/about", "Contacts/contact", "Contact/Contact", "Experience/experiencepro", "Item/item", "Picture/picture", "Presentation/presentation",
 "Formation/formation", "Sport/sports", "Recommandations/recommandation";
+ html {
 
+   scroll-behavior: smooth;
+ }
 .body {
   display: flex;
   //justify-content: center;

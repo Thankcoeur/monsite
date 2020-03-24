@@ -13,7 +13,66 @@
 <body>
 <div class="body">
 
-    <div class="mainContainer">
+    <div id="home" class="mainContainer">
+
+        <div class="bar">
+
+            <style>
+
+
+                .bar {
+
+                    position: fixed;
+                    top:20px ;
+                    right: 5px;
+                    background-color: black;
+                    color: white;
+                    border-radius: 10px;
+                    visibility: hidden;
+
+                }
+                .bar .content {
+                    padding: 10px 0px;
+                    display: block;
+                }
+                .bar a  {
+                    overflow: hidden;
+                    color: white;
+                    display: block;
+                    padding: 10px;
+                }
+                .bar a:hover {
+
+                    background-color: #dc512e;
+                }
+
+                @media all and (max-width: 600px ){
+                    .bar {
+
+                        visibility: visible;
+                    }
+                }
+            </style>
+            <div class="content">
+
+                <a href="#home"><i class="fas fa-home"></i></a>
+                <a href="#contact"><i class="fas fa-id-card"></i></a>
+                <a href="#formation"><i  class="fas fa-graduation-cap"></i></a>
+                <a href="#experience"><i  class="fas fa-briefcase"></i></a>
+
+
+                <a href="#recommandation"> <i class="fas fa-edit"></i></a>
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
 
         <div class="leftContainer  ">
 
@@ -37,7 +96,7 @@
                 </div>
 
             </section>
-            <div class="contacts">
+            <div id="contact" class="contacts">
     <h2 class="titre">Contacts</h2>
     <div class="content">
 
@@ -144,7 +203,7 @@
 
             <!-- Formation -->
 
-<section class="formation  ">
+<section id="formation" class="formation  ">
 
     <h1><i id="fix"class="fas fa-graduation-cap"></i>Formation</h1>
 
@@ -230,7 +289,7 @@
             <!-- Experience pro -->
 
 
-<section class="experience ">
+<section id="experience" class="experience ">
 
 
     <h1><i id="fix" class="fas fa-briefcase"></i>Experiences pro</h1>
@@ -323,9 +382,9 @@
 
 
 </section>
-            <section class="recommandation">
+            <section id="recommandation" class="recommandation">
 
-    <h1><i id="fix" class="fas fa-graduation-cap"></i>Recommandation</h1>
+    <h1><i id="fix" class="fas fa-edit"></i></i>Recommandation</h1>
 
     <div class="recommandation-items">
 
