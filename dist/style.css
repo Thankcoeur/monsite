@@ -155,7 +155,6 @@
 .sports > h2 {
   padding: 10px;
   text-align: center;
-  font-size: 2em;
   background: linear-gradient(90deg, #86528a 0%, rgba(220, 19, 154, 0.5) 50%, #d45edc 100%);
 }
 
