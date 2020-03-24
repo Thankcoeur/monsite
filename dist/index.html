@@ -13,73 +13,79 @@
 <body>
 <div class="body">
 
-    <div id="home" class="mainContainer">
+    <div class="bar">
 
-        <div class="bar">
+        <style>
 
-            <style>
+            .bar:hover {
 
-                .bar:hover {
+                opacity: 1;
+            }
+            .bar {
+                transition-delay: 0ms ;
 
-                    opacity: 1;
-                }
+                transition-duration: 500ms;
+                transition-property: opacity;
+                font-size: 20px;
+                opacity: 0.2;
+                position: fixed;
+                bottom: 5px ;
+                right: 5px;
+                left: 5px;
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+                visibility: hidden;
+
+            }
+            .bar .content {
+                padding: 10px 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .bar a  {
+
+                overflow: hidden;
+                color: white;
+                display: inline-block;
+                padding: 20px;
+            }
+            .bar a:hover {
+
+                background-color: #da23a8;
+            }
+
+            @media all and (max-width: 600px ){
                 .bar {
-                    transition-delay: 100ms ;
 
-                    transition-duration: 500ms;
-                    transition-property: opacity;
-                    font-size: 20px;
-                    opacity: 0.2;
-                    position: fixed;
-                    top:20px ;
-                    right: 5px;
-                    background-color: black;
-                    color: white;
-                    border-radius: 10px;
-                    visibility: hidden;
-
+                    visibility: visible;
                 }
-                .bar .content {
-                    padding: 10px 0px;
-                    display: block;
-                }
-                .bar a  {
-                    overflow: hidden;
-                    color: white;
-                    display: block;
-                    padding: 20px;
-                }
-                .bar a:hover {
+            }
+        </style>
+        <div class="content">
 
-                    background-color: #dc512e;
-                }
-
-                @media all and (max-width: 600px ){
-                    .bar {
-
-                        visibility: visible;
-                    }
-                }
-            </style>
-            <div class="content">
-
-                <a href="#home"><i class="fas fa-home"></i></a>
-                <a href="#contact"><i class="fas fa-id-card"></i></a>
-                <a href="#formation"><i  class="fas fa-graduation-cap"></i></a>
-                <a href="#experience"><i  class="fas fa-briefcase"></i></a>
+            <a href="#home"><i class="fas fa-home"></i></a>
+            <a href="#contact"><i class="fas fa-id-card"></i></a>
+            <a href="#formation"><i  class="fas fa-graduation-cap"></i></a>
+            <a href="#experience"><i  class="fas fa-briefcase"></i></a>
 
 
-                <a href="#recommandation"> <i class="fas fa-edit"></i></a>
-
-
-
-
-            </div>
+            <a href="#recommandation"> <i class="fas fa-edit"></i></a>
 
 
 
 
         </div>
+
+
+
+
+    </div>
+
+    <div id="home" class="mainContainer">
+
+
 
 
         <div class="leftContainer  ">
@@ -430,7 +436,12 @@
 
 </div>
 
+<div class="bottom-bar">
 
+
+
+
+</div>
 <script crossorigin="anonymous" src="https://kit.fontawesome.com/a5a5d0b752.js"></script>
 
 
