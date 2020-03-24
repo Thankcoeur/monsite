@@ -2,9 +2,13 @@
   padding: 20px;
 font-size: 1.3em;
   h1 {
+    #fix-widht {
+      width: 24px;
+
+    }
 
     border-bottom: 0.5px solid violet;
-  font-size:2em;
+  font-size:1.5rem;
 
   }
 
@@ -14,6 +18,8 @@ font-size: 1.3em;
     justify-content: space-around;
 
     .item {
+      white-space: nowrap;
+      width: 100px;
 
   padding: 5px;
 

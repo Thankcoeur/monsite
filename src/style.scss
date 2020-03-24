@@ -112,8 +112,24 @@
   background-size: contain;
 }
 
+
+
 * {
 
   cursor: default;
 }
 
+@media all and (max-width: 370px){
+  .formation .experience {
+
+    i {
+
+      width: 24px;
+      height: 24px;
+    }
+
+
+
+  }
+
+}
