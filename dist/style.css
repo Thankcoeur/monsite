@@ -249,6 +249,10 @@ html {
 }
 
 @media all and (max-width: 600px) {
+  .pictureContainer {
+    margin-top: 80px;
+  }
+
   .bottom-bar {
     width: 100%;
     height: 80px;
