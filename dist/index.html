@@ -48,7 +48,7 @@
         }
 
         </style>
-        <a href="mailto:maxime.fedou@email.com"><i class="fas fa-envelope-open"></i></a>
+        <a href="mailto:maxime.fedou@email.com?subject=reponse cv&body=nom : {nom]%0D%0Anum de tel :{tel} %0D%0Amerci de me contacter " ><i class="fas fa-envelope-open"></i></a>
 
     </div>
     <div class="tel">
@@ -72,7 +72,7 @@
             opacity: 0.2;
             position: fixed;
             top: 10px ;
-            left: 10px ;
+            left: 90px ;
             font-size: 40px;
             background-color: black;
             padding: 10px;
@@ -86,10 +86,62 @@
                 color: white;
             }
 
+            @media all and (min-width:  600px ) {
+
+            }
+
 
         </style>
 
-        <a href="tel:+33685037370"><i class="fas fa-tty"></i></a>
+        <a href="tel:+33685037370?subject=reponse cv&body=nom : {nom]%0D%0Anum de tel :{tel} %0D%0Amerci de me contacter"><i class="fas fa-sms"></i></a>
+
+
+    </div>
+
+
+    <div class="telsms">
+
+        <style>
+
+
+            .telsms:hover {
+
+                opacity: 1;
+            }
+            .telsms {
+                transition-delay: 0ms ;
+
+                transition-duration: 500ms;
+                transition-property: opacity;
+
+                width: 50px;
+                height: 50px;
+                color: red;
+                opacity: 0.2;
+                position: fixed;
+                top: 10px ;
+                left: 10px ;
+                font-size: 40px;
+                background-color: black;
+                padding: 10px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .telsms a {
+
+                color: white;
+            }
+
+            @media all and (min-width:  600px ) {
+
+            }
+
+
+        </style>
+
+        <a href="sms:+33685037370"><i class="fas fa-tty"></i></a>
 
 
     </div>
