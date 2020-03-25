@@ -198,14 +198,14 @@
   border-radius: 10px;
 }
 .BarTop > .container {
-  padding: 10px;
+  padding: 5px;
   font-size: 20px;
   display: flex;
   flex-direction: row;
 }
 .BarTop > .container a {
   color: rgba(87, 107, 220, 0.75);
-  padding: 10px;
+  padding: 5px;
   margin: 5px;
 }
 .BarTop > .container a:hover {
