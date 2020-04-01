@@ -1,0 +1,50 @@
+
+
+    .BarBottom:hover {
+
+        background-color: rgba(0,0,0,1);
+        color: rgba(255,255,255,1);
+    }
+    .BarBottom {
+
+
+
+       transition: background-color,color;
+        font-size: 20px;
+        background-color: rgba(0,0,0,0.3);
+        position: fixed;
+        bottom: 0px ;
+        right: 0px;
+        left: 0px;
+
+        color: rgba(220, 81, 46, 0.75);
+
+        visibility: hidden;
+
+    }
+    .BarBottom .content {
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .BarBottom a  {
+        color: inherit;
+
+        overflow: hidden;
+
+        display: inline-block;
+        padding: 20px;
+    }
+    .BarBottom a:hover {
+
+        background-color: #da23a8;
+    }
+
+    @media all and (max-width: 600px ){
+        .BarBottom {
+
+            visibility: visible;
+        }
+
+    }
