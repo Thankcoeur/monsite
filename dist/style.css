@@ -241,10 +241,8 @@
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  color: rgba(220, 81, 46, 0.75);
+  bottom: 0;
+  width: 100%;
   visibility: hidden;
 }
 
@@ -288,6 +286,7 @@ html {
 }
 
 .body {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   letter-spacing: 0px;
@@ -301,6 +300,12 @@ html {
   grid-template-columns: 300px 600px;
   grid-template-rows: auto;
   grid-column-gap: 0px;
+}
+@media (max-width: 600px) {
+  .mainContainer {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 }
 
 .leftContainer {

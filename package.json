@@ -1,15 +1,15 @@
 {
-  "name": "monsite",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "include": "html-includes --watch"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "html-includes": "^4.2.0"
-  }
+    "name": "monsite",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "include": "html-includes --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "html-includes": "^4.2.0"
+    }
 }

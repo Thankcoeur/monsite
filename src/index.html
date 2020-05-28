@@ -1,91 +1,86 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
     <title>Devellopeur front-end <strong>Villeparisis</strong> </title>
     <meta name="description" content="jeune devellopeur front-end qui veut montrer sont talent">
 
     <link href="style.css" rel="stylesheet">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163392447-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163392447-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-163392447-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-163392447-1');
+    </script>
 
 
 </head>
+
 <body>
-<div class="body">
+    ${require('./BarBottom/_BarBottom.html')} ${require('./BarTop/_BarTop.html')}
+
+    <div class="body">
 
 
 
 
 
-    ${require('./BarBottom/_BarBottom.html')}
-    ${require('./BarTop/_BarTop.html')}
-
-
-
-    
 
 
 
 
-    </div>
-
-    <div id="home" class="mainContainer">
 
 
 
 
-        <aside class="leftContainer  ">
-
-            ${require('./Picture/_picture.html')}
 
 
-            <section class="presentation-hidden presentation ">
+        <div id="home" class="mainContainer">
 
-                <div class="content">
 
-                    <h2 class="h1"><span class="name-color">Maxime</span> <span class="maj">Fedou-Forgeard</span></h2>
-                    <h3 class="h2">Devellopeur front&#8209;end</h3>
 
-                </div>
 
-            </section>
-            ${require('./Contacts/_Contacts.html')}
-            ${require('./About/_about.html')}
-            ${require('./Sport/_sports.html')}
+            <aside class="leftContainer  ">
 
-        </aside>
+                ${require('./Picture/_picture.html')}
 
-        <div class="rightContainer ">
-            ${require('./Presentation/_presentation.html')}
-            ${require('./Formation/_formation.html') }
-            ${require('./Experience/_Experiencepro.html') }
-            ${require('./Recommandations/_recommandation.html') }
+
+                <section class="presentation-hidden presentation ">
+
+                    <div class="content">
+
+                        <h2 class="h1"><span class="name-color">Maxime</span> <span class="maj">Fedou-Forgeard</span></h2>
+                        <h3 class="h2">Devellopeur front&#8209;end</h3>
+
+                    </div>
+
+                </section>
+                ${require('./Contacts/_Contacts.html')} ${require('./About/_about.html')} ${require('./Sport/_sports.html')}
+
+            </aside>
+
+            <div class="rightContainer ">
+                ${require('./Presentation/_presentation.html')} ${require('./Formation/_formation.html') } ${require('./Experience/_Experiencepro.html') } ${require('./Recommandations/_recommandation.html') }
+
+            </div>
 
         </div>
 
+
     </div>
 
 
-</div>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/a5a5d0b752.js"></script>
 
-<div class="bottom-bar">
-
-
-
-
-</div>
-<script crossorigin="anonymous" src="https://kit.fontawesome.com/a5a5d0b752.js"></script>
-
-
+    </div>
 </body>
+
 </html>
