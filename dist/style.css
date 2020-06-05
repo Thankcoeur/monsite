@@ -45,7 +45,7 @@ header {
 .banniere__image {
   height: 100px;
   width: 100px;
-  background: url("/dist/SVG/personnage.svg");
+  background: url("SVG/personnage.svg");
   background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 20px;
