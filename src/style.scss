@@ -4,6 +4,15 @@ body {
     box-sizing: border-box;
 }
 
+.orange-bar-left {
+    border-left: 5px solid #E04E31;
+}
+
+.orange-bar-right {
+    border-right: 5px solid #E97439;
+}
+
 @import "./Component/Navbar/Navbar.scss",
 "./Component/Whyme/Whyme.scss",
-"./Component/Whysite/Whysite.scss"
+"./Component/Whysite/Whysite.scss",
+"./Component/Offre/Offre.scss"

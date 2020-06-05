@@ -1,9 +1,12 @@
 .Whyme {
+    margin: auto;
     align-items: center;
     justify-items: center;
     display: grid;
     grid-template-columns: 1fr;
     &__item {
+        box-shadow: 0px 0px 3px 0px grey;
+        margin: 20px;
         padding: 20px;
         display: grid;
         justify-items: center;

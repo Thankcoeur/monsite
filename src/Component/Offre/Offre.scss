@@ -1,0 +1,11 @@
+.Offre {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    &__item {
+        height: 400px;
+        width: 300px;
+        box-shadow: 0px 0px 5px 0px grey;
+    }
+}
