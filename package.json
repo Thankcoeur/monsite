@@ -5,11 +5,13 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "include": "html-includes --watch"
+        "dev": "concurrently \"html-includes --watch\" \"sass src/style.scss:dist/style.css --watch\""
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "html-includes": "^4.2.0"
+        "concurrently": "^5.2.0",
+        "html-includes": "^4.3.2",
+        "sass": "^1.26.8"
     }
 }
