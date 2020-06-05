@@ -1,1 +1,9 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+@import "./Component/Navbar/Navbar.scss",
+"./Component/Whyme/Whyme.scss",
+"./Component/Whysite/Whysite.scss"
