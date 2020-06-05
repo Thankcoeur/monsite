@@ -1,5 +1,5 @@
             header {
-                background-color: #fb8c00;
+                background-color: #754100;
             }
             
             .Navbar {
@@ -52,5 +52,9 @@
                     text-align: center;
                     margin: auto;
                     box-shadow: 0px 0px 3px 0px white;
+                }
+                &__link {
+                    text-decoration: none;
+                    color: white;
                 }
             }

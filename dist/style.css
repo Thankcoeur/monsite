@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #fb8c00;
+  background-color: #754100;
 }
 
 .Navbar {
@@ -60,6 +60,10 @@ header {
   margin: auto;
   box-shadow: 0px 0px 3px 0px white;
 }
+.banniere__link {
+  text-decoration: none;
+  color: white;
+}
 
 .Whyme {
   align-items: center;
@@ -79,7 +83,7 @@ header {
   align-items: center;
   justify-items: center;
   display: grid;
-  background-color: #fb8c00;
+  background-color: #754100;
   color: white;
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
   grid-template-columns: 1fr;
