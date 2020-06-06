@@ -1,4 +1,6 @@
 .Whysite {
+    width: 300px;
+    margin: auto;
     padding-top: 40px;
     padding-bottom: 20px;
     align-items: center;
@@ -8,6 +10,7 @@
     @media (min-width: 600px) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         align-items: stretch;
+        width: auto;
     }
     color: white;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);

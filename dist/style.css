@@ -5,11 +5,11 @@ body {
 }
 
 .orange-bar-left {
-  border-left: 5px solid #E04E31;
+  border-top: 5px solid #E04E31;
 }
 
 .orange-bar-right {
-  border-right: 5px solid #E97439;
+  border-top: 5px solid #E97439;
 }
 
 header {
@@ -74,6 +74,7 @@ header {
 }
 
 .Whyme {
+  width: 300px;
   margin: auto;
   align-items: center;
   justify-items: center;
@@ -84,6 +85,7 @@ header {
   .Whyme {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: stretch;
+    width: auto;
   }
 }
 .Whyme__item {
@@ -95,6 +97,8 @@ header {
 }
 
 .Whysite {
+  width: 300px;
+  margin: auto;
   padding-top: 40px;
   padding-bottom: 20px;
   align-items: center;
@@ -109,6 +113,7 @@ header {
   .Whysite {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: stretch;
+    width: auto;
   }
 }
 .Whysite__item {
