@@ -97,8 +97,7 @@ header {
 }
 
 .Whysite {
-  width: 300px;
-  margin: auto;
+  width: 100%;
   padding-top: 40px;
   padding-bottom: 20px;
   align-items: center;
