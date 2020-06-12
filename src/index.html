@@ -5,12 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ForfedWeb Agence Web Villeparisis</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
     <meta name="description" content="Createur de site web performant sans cms en ile de france Villeparisis Paris">
 </head>
 
 <body>
 
+
+    <script>
+        function detectie11() {
+
+
+
+
+
+        }
+        var ua = window.navigator.userAgent;
+        var trident = ua.indexOf('Trident/');
+        if (trident > 0) {
+            // IE 11 => return version number
+            var rv = ua.indexOf('rv:');
+            console.log(parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10));
+        }
+    </script>
 
 
     ${require('./Component/Navbar/_Navbar.html')} ${require('./Component/Whyme/_Whyme.html')} ${require('./Component/Whysite/_Whysite.html')} ${require('./Component/Offre/_Offre.html')} ${require('./Component/Contact/_Contact.html')} ${require('./Component/Footer/_Footer.html')}

@@ -18,216 +18,103 @@ body {
 }
 
 header {
-  background-color: #003049;
-  display: grid;
-  margin: auto;
-}
-
-.Navbar {
-  background-color: #003049;
-  width: 100%;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  color: white;
-  font-size: 25.5px;
-}
-.Navbar__a {
-  text-decoration: none;
-  color: white;
-}
-.Navbar__link {
-  list-style: none;
-}
-.Navbar__links {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  text-decoration: none;
-  list-style: none;
-  color: white;
-}
-.Navbar__links li {
-  padding: 20px;
-}
-.Navbar__links a {
-  color: white;
-  text-decoration: none;
-}
-@media (max-width: 600px) {
-  .Navbar__menulist {
-    display: none;
-  }
-}
-.Navbar__logo {
-  padding: 20px;
-}
-
-.banniere {
-  color: white;
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: space-around;
-  justify-items: center;
-}
-.banniere__texte {
-  padding: 40px;
-}
-.banniere__image {
-  height: 100px;
-  width: 100px;
-  background: url("SVG/personnage.svg");
-  background-size: contain;
+  background-image: url("SVG/header.svg");
   background-repeat: no-repeat;
-  margin-bottom: 20px;
-  background-position: center center;
-}
-.banniere__commander {
-  display: block;
-  font-size: 25px;
-  padding: 20px;
-  text-align: center;
-  margin: auto;
-  box-shadow: 0px 0px 3px 0px white;
-}
-.banniere__link {
-  text-decoration: none;
-  color: white;
-}
-
-.Whyme {
-  width: 300px;
-  margin: auto;
-  align-items: center;
-  justify-items: center;
-  display: grid;
-  grid-template-columns: 300px;
-}
-@media (min-width: 600px) {
-  .Whyme {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items: stretch;
-    width: auto;
-  }
-}
-.Whyme__item {
-  box-shadow: 0px 0px 3px 0px grey;
-  margin: 20px;
-  padding: 20px;
-  display: grid;
-  justify-items: center;
-}
-
-.Whysite {
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  align-items: center;
-  justify-items: center;
-  display: grid;
-  background-color: #003049;
-  color: white;
-  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
-  grid-template-columns: 1fr;
-}
-@media (min-width: 600px) {
-  .Whysite {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: stretch;
-    width: auto;
-  }
-}
-.Whysite__item {
-  padding: 20px;
-  display: grid;
-  justify-items: center;
-}
-
-.Offre {
-  margin: auto;
-  align-items: center;
-  justify-items: center;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-@media (min-width: 600px) {
-  .Offre {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: stretch;
-  }
-}
-.Offre__item {
-  box-shadow: 0px 0px 3px 0px grey;
-  margin: 20px;
-  padding: 20px;
-  display: grid;
-  justify-items: center;
-}
-
-.form {
+  background-size: cover;
   height: 400px;
-}
-.form__form:invalid::before {
   color: white;
-  background-color: red;
-  display: block;
-  content: "";
-  height: 2px;
+}
+header h1 {
+  color: black;
+  font-size: 24px;
   text-align: center;
-  width: 100px;
 }
-.form__form:invalid::after {
-  color: white;
-  background-color: red;
+header button {
   display: block;
-  content: "";
-  height: 2px;
-  text-align: center;
-  width: 100px;
-}
-.form__form:valid::before {
-  display: block;
-  content: "";
-  background-color: #43b443;
-  height: 2px;
-  width: 100px;
-}
-.form__form:valid::after {
-  display: block;
-  content: "";
-  background-color: #43b443;
-  height: 2px;
-  width: 100px;
-}
-.form textarea {
-  background-color: #e4dcdc;
-  border-radius: 20px;
-  padding: 10px;
-  width: 227px;
-  height: 200px;
-  resize: none;
-}
-.form input {
-  height: 20px;
-  width: 227px;
-  background-color: #e4dcdc;
-  box-shadow: none;
-  border-radius: 20px;
+  margin: auto;
+  margin-top: 100px;
   border: none;
+  background-color: #d4d3d3;
+  border-radius: 20px;
   padding: 10px;
 }
-.form input:hover {
-  box-shadow: 0px 0px 5px 0px blue;
+header button .commander {
+  display: inline-block;
+  padding-right: 10px;
 }
-.form input:invalid {
-  box-shadow: 0px 0px 3px 0px red;
+header p {
+  display: block;
+  padding-top: 20px;
+  text-align: center;
 }
-.form__form {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 10px;
-  justify-items: center;
+header nav {
+  height: 80px;
+}
+header nav .logo {
+  padding-left: 10px;
+  padding-top: 10px;
+  float: left;
+}
+header nav .hamb {
+  float: right;
+  padding-right: 10px;
+}
+
+.whyme h2 {
+  font-size: 14px;
+}
+.whyme .wrap {
+  filter: drop-shadow(0px 0px 3px rgba(50, 50, 0, 0.5));
+}
+.whyme .item2 {
+  background-color: #E85A07;
+  color: white;
+}
+.whyme .item1 {
+  background-color: white;
+  padding-bottom: 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
+}
+.whyme .item3 {
+  background-color: #F9F9F9;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
+}
+.whyme .item {
+  height: 150px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 50px;
+  width: 300px;
+}
+.whyme .item .right {
+  height: 100%;
+}
+.whyme .item .logo {
+  float: left;
+  position: relative;
+  height: 100%;
+  width: 100px;
+}
+.whyme .item .logo img {
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-57%) translateX(40%);
+  width: 60px;
+}
+
+.whysite h2 {
+  text-align: center;
+}
+.whysite .bar {
+  height: 2px;
+  width: 200px;
+  background-color: #E85A07;
+  margin: auto;
+}
+.whysite img {
+  display: block;
+  float: left;
 }
 
 .footer {

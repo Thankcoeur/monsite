@@ -1,78 +1,42 @@
-            header {
-                background-color: #003049;
-                display: grid;
-                margin: auto;
-            }
-            
-            .Navbar {
-                background-color: #003049;
-                width: 100%;
-                display: grid;
-                align-items: center;
-                justify-content: center;
-                justify-items: center;
-                color: white;
-                font-size: 25.5px;
-                &__a {
-                    text-decoration: none;
-                    color: white;
-                }
-                &__link {
-                    list-style: none;
-                }
-                &__links {
-                    display: flex;
-                    justify-content: space-around;
-                    flex-direction: column;
-                    text-decoration: none;
-                    list-style: none;
-                    color: white;
-                    li {
-                        padding: 20px;
-                    }
-                    a {
-                        color: white;
-                        text-decoration: none;
-                    }
-                }
-                &__menulist {
-                    @media (max-width: 600px) {
-                        display: none;
-                    }
-                }
-                &__logo {
-                    padding: 20px;
-                }
-            }
-            
-            .banniere {
-                color: white;
-                display: grid;
-                grid-template-columns: 1fr;
-                align-items: space-around;
-                justify-items: center;
-                &__texte {
-                    padding: 40px;
-                }
-                &__image {
-                    height: 100px;
-                    width: 100px;
-                    background: url("SVG/personnage.svg");
-                    background-size: contain;
-                    background-repeat: no-repeat;
-                    margin-bottom: 20px;
-                    background-position: center center;
-                }
-                &__commander {
-                    display: block;
-                    font-size: 25px;
-                    padding: 20px;
-                    text-align: center;
-                    margin: auto;
-                    box-shadow: 0px 0px 3px 0px white;
-                }
-                &__link {
-                    text-decoration: none;
-                    color: white;
-                }
-            }
+header {
+    background-image: url('SVG/header.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    h1 {
+        color: black;
+        font-size: 24px;
+        text-align: center;
+    }
+    button {
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+        border: none;
+        background-color: rgb(212, 211, 211);
+        border-radius: 20px;
+        padding: 10px;
+        .commander {
+            display: inline-block;
+            padding-right: 10px;
+        }
+    }
+    p {
+        display: block;
+        padding-top: 20px;
+        text-align: center;
+    }
+    nav {
+        height: 80px;
+        .logo {
+            padding-left: 10px;
+            padding-top: 10px;
+            float: left;
+        }
+        .hamb {
+            float: right;
+            padding-right: 10px;
+        }
+    }
+}

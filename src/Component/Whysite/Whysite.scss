@@ -1,22 +1,15 @@
-.Whysite {
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    align-items: center;
-    justify-items: center;
-    display: grid;
-    background-color: #003049;
-    @media (min-width: 600px) {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        align-items: stretch;
-        width: auto;
+.whysite {
+    h2 {
+        text-align: center;
     }
-    color: white;
-    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
-    grid-template-columns: 1fr;
-    &__item {
-        padding: 20px;
-        display: grid;
-        justify-items: center;
+    .bar {
+        height: 2px;
+        width: 200px;
+        background-color: #E85A07;
+        margin: auto;
+    }
+    img {
+        display: block;
+        float: left;
     }
 }
